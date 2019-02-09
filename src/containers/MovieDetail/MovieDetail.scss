@@ -1,0 +1,19 @@
+.movie-detail {
+  margin-bottom: 10rem;
+
+  &__heading {
+    margin-top: 10rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.actor-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.actor-col {
+  flex: 1 0 25%;
+}

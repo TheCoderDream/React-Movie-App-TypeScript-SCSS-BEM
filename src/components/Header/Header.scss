@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  height: auto;
+  background: rgba(0,0,0,.5);
+  box-shadow: 0 3rem 5rem rgba(black, 0.2);
+
+  &__content {
+    max-width: 120rem;
+    min-width: 12rem;
+    padding: 2rem 0;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__left-logo {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 0;
+  }
+
+  &__right-logo {
+    width: 10rem;
+    margin-top: 1.5rem;
+    height: 6rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    &__left-logo {
+      width: 15rem;
+      margin-top: .5rem;
+    }
+
+    &__right-logo {
+      width: 15rem;
+      margin-top: .5rem;
+    }
+  }
+}

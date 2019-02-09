@@ -1,0 +1,32 @@
+.slider {
+  position: relative;
+  font-size: 15rem;
+  height: 60rem;
+  overflow: hidden;
+
+  &__btn-left{
+    position: absolute;
+    z-index: 1000;
+    top: 13rem;
+    float: left;
+    cursor: pointer;
+    color: white;
+    left: 6rem;
+
+  }
+
+  &__btn-right{
+    position: absolute;
+    top: 13rem;
+    right: 6rem;
+    z-index: 1000;
+    cursor: pointer;
+    color: white;
+  }
+}
+
+.isDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}

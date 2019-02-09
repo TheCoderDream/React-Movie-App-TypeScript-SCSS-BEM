@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, serif;
+  box-sizing: border-box;
+}
+
+
+.row {
+  font-size: 4.2rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 4rem;
+
+  .col {
+    max-width: 43rem;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+}

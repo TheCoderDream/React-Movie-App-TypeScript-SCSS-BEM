@@ -1,0 +1,75 @@
+.movie-info {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60rem;
+  padding: 4rem 2rem;
+
+
+  &__content {
+    max-width: 120rem;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__thumb {
+    height: 100%;
+    overflow: hidden;
+    flex-basis: 25%;
+  }
+
+  &__text {
+    position: relative;
+    height: 100%;
+    width: auto;
+    padding: 40px;
+    color: #fff;
+    overflow: hidden;
+    flex-basis: 75%;
+
+    h1 {
+      font-size: 3.4rem;
+    }
+
+    h3 {
+      font-size: 1.6rem;
+      line-height: 0;
+      margin: 3rem 0;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+    }
+  }
+
+  &__rating {
+    width: 25rem;
+    height: 2rem;
+    margin-top: 2rem;
+  }
+
+
+}
+
+meter::-webkit-meter-bar {
+  background: #FFF;
+  width: 200px;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: linear-gradient(to bottom, #16d47b);
+}
+
+meter::-webkit-meter-suboptimum-value {
+  background: linear-gradient(to bottom, #fbb450);
+}
+
+meter::-webkit-meter-even-less-good-value {
+  background: linear-gradient(to bottom, #ee5f5b);
+}
