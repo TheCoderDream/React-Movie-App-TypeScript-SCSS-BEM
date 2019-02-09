@@ -1,3 +1,11 @@
+# Here is live demo <a href="http://chubby-ball.surge.sh/" style="font-size: 40px">CLICK TO SEE DEMO</a>
+
+
+![alt-text](https://github.com/TheCodersDream/React-Movie-App-TypeScript-SCSS-BEM/blob/master/Screenshot_1.png)
+![alt-text](https://github.com/TheCodersDream/React-Movie-App-TypeScript-SCSS-BEM/blob/master/Screenshot_2.png)
+![alt-text](https://github.com/TheCodersDream/React-Movie-App-TypeScript-SCSS-BEM/blob/master/Screenshot_3.png)
+![alt-text](https://github.com/TheCodersDream/React-Movie-App-TypeScript-SCSS-BEM/blob/master/Screenshot_4.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
