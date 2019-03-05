@@ -1,4 +1,4 @@
-# Here is live demo <a href="http://chubby-ball.surge.sh/" style="font-size: 40px">CLICK TO SEE DEMO</a>
+# Here is the live demo <a href="http://chubby-ball.surge.sh/" style="font-size: 40px">CLICK TO SEE DEMO</a>
 
 
 ![alt-text](https://github.com/TheCodersDream/React-Movie-App-TypeScript-SCSS-BEM/blob/master/Screenshot_1.png)
